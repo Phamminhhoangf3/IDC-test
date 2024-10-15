@@ -22,7 +22,6 @@ export default function ContractForm({ onSubmit }) {
     <form
       className="contract-form"
       onSubmit={form.onSubmit(() => {
-        console.log("🚀 ~ onSbmit={form.onSubmit ~ onSubmit:");
         setValidated(true);
       })}
     >
@@ -71,8 +70,6 @@ export default function ContractForm({ onSubmit }) {
               className="contract-btn"
               onClick={(e) => {
                 e.preventDefault();
-                console.log("EDIT");
-
                 setValidated((prev) => !prev);
               }}
             >

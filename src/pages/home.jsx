@@ -14,7 +14,6 @@ const dataCarousel = ["1", "2", "3"].map((item) => ({
       </div>
     </div>
   ),
-  // <img src={`/images/slider-${item}.png`} alt={`slide-${item}`} />,
 }));
 
 const dataAbout = [
